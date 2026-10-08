@@ -1,0 +1,101 @@
+/* Configuración General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a; /* Fondo oscuro moderno */
+    color: #e2e8f0; /* Texto claro */
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+main, header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #38bdf8; /* Azul tecnológico */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #94a3b8;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #f1f5f9;
+    margin-bottom: 20px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+.about p {
+    color: #cbd5e1;
+    font-size: 1.1rem;
+}
+
+/* Tarjetas de Proyectos */
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #1e293b; /* Tarjeta un poco más clara */
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 25px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    border-color: #38bdf8;
+}
+
+.project-card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.project-card p {
+    color: #cbd5e1;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Etiquetas de Tecnologías */
+.tech-tag {
+    display: inline-block;
+    background-color: #0284c7;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-right: 8px;
+    text-transform: uppercase;
+}
